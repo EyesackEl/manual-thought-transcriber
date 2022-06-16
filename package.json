@@ -1,14 +1,24 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "- [Installation](#installation) - [Usage](#usage) - [Credits](#contributing) - [Test Instructions](#test-instructions) - [License](#license)",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Isaac LaFlamme",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EyesackEl/manual-thought-transcriber.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EyesackEl/manual-thought-transcriber/issues"
+  },
+  "homepage": "https://github.com/EyesackEl/manual-thought-transcriber#readme"
 }
