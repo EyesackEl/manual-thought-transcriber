@@ -27,3 +27,5 @@ This project is licensed under the Do What the Fuck You Want to Public license, 
 
 ## Heroku Deployment
 The deployed version of this app can be found at: https://hidden-cove-83102.herokuapp.com/
+
+![image](https://user-images.githubusercontent.com/101996599/174923419-09e672ba-cf9a-469c-8a39-c63b01b8b2bc.png)
