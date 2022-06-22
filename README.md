@@ -11,6 +11,9 @@ Reach the author of this README at [isaac.laflamme@gmail.com](mailto:isaac.lafla
 ## Description
 This application is a tool for saving thoughts you don't want to forget for later use; featuring a wide variety of accepted writing styles, punctuation, grammar, and sentence structure as input!
 
+![image](https://user-images.githubusercontent.com/101996599/174923419-09e672ba-cf9a-469c-8a39-c63b01b8b2bc.png)
+
+
 ## Installation
 After pulling the repository, initialize the npm's required and start a server with the server.js file.
 
@@ -27,5 +30,3 @@ This project is licensed under the Do What the Fuck You Want to Public license, 
 
 ## Heroku Deployment
 The deployed version of this app can be found at: https://hidden-cove-83102.herokuapp.com/
-
-![image](https://user-images.githubusercontent.com/101996599/174923419-09e672ba-cf9a-469c-8a39-c63b01b8b2bc.png)
