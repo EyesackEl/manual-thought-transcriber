@@ -4,6 +4,7 @@
 - [Usage](#usage)
 - [Credits](#contributing)
 - [License](#license)
+- [Heroku](#heroku-deployment)
 
 Reach the author of this README at [isaac.laflamme@gmail.com](mailto:isaac.laflamme@gmail.com)
 
@@ -23,3 +24,6 @@ Pull requests are welcome, if you really think there's any room for improvement 
 [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 
 This project is licensed under the Do What the Fuck You Want to Public license, it's documentation can be found here: http://www.wtfpl.net/about/
+
+## Heroku Deployment
+The deployed version of this app can be found at: https://hidden-cove-83102.herokuapp.com/
