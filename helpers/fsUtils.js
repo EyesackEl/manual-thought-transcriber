@@ -21,4 +21,27 @@ const readAndAppend = (content, file) => {
   });
 };
 
-module.exports = { readFromFile, writeToFile, readAndAppend };
+const deleteFromFile = (id, file) =>{
+  console.log('test2')
+  fs.readFile(file, 'utf8', (err, data) => {
+    if (err) {
+      console.error(err);
+    } else {
+      const parsedData = JSON.parse(data);
+      console.log(parsedData[2]);
+      console.log(parsedData[1]);
+      console.log(parsedData[0]);
+      console.log(id)
+      for (let i=0; i < parsedData.length; i++) {
+        if (parsedData[i].id == id) {
+          console.log(parsedData);
+          parsedData.splice(i, 1);
+          console.log(parsedData);
+        } 
+      }
+      writeToFile(file, parsedData)
+    }
+  } )
+}
+
+module.exports = {readFromFile, writeToFile, readAndAppend, deleteFromFile};
